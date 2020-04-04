@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
+const store = require('./store');
 
 // defining the Express app
 const app = express();
@@ -25,9 +26,10 @@ app.use(cors());
 app.use(morgan('combined'));
 
 // defining an endpoint to return all stores
-app.get('/', (req, res) => {
-  res.send(stores);
-});
+app.get('/v1/stores', store.get);
+
+// defining an endpoint to add a new store
+app.post('/v1/stores', store.post);
 
 // starting the server
 app.listen(8080, () => {
