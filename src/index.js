@@ -1,5 +1,4 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
@@ -16,9 +15,6 @@ const API_STORE = '/v1/stores';
 
 // adding Helmet to enhance your API's security
 app.use(helmet());
-
-// using bodyParser to parse JSON bodies into JS objects
-// app.use(bodyParser.json());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -50,13 +46,6 @@ app.use((err, req, res) => {
   res.status(err.status || 500);
   res.render('error');
 });
-
-// app.use(function (req, res, next) {
-//     // console.log(req);
-//     // console.log('hello world');
-//     res.setHeader('Content-Type', 'text/plain');
-//     res.end('Hello World');
-// });
 
 // starting the server
 app.listen(8080, () => {
