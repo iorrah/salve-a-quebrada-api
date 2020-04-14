@@ -25,12 +25,8 @@ const store = {
     };
 
     db.get('stores').push(store).write();
-
-    console.log(JSON.stringify(req.body));
-
-    // const stores = db.get('stores').value();
     res.send(store);
-    res.end('Hello World');
+    res.end(store);
   }
 };
 
