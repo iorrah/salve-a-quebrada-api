@@ -19,7 +19,7 @@ const store = {
       city: req.body.city,
       donation: req.body.donation,
       id: id,
-      image: req.body.imageText,
+      image: req.body.image,
       name: req.body.name,
       status: 0,
     };
