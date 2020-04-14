@@ -1,5 +1,6 @@
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
+const utils = require('./utils/utils');
 
 const adapter = new FileSync('db.json');
 const db = low(adapter);
@@ -11,7 +12,8 @@ const store = {
   },
 
   post(req, res) {
-    const id = 123; // latest id incremented
+    const stores = db.get('stores').value();
+    const id = utils.getId(stores);
 
     const store = {
       city: req.body.city,
