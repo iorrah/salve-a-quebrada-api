@@ -1,4 +1,8 @@
 module.exports = {
+  defaultDb: {
+    stores: [],
+  },
+
   getLatestId(stores) {
     if (stores && stores.length) {
       const { length } = stores;
