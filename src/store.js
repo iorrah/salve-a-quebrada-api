@@ -16,7 +16,7 @@ const store = {
     const id = utils.getId(stores);
 
     const store = {
-      city: req.body.city,
+      address: req.body.address,
       donation: req.body.donation,
       id: id,
       image: req.body.image,
