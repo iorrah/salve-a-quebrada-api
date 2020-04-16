@@ -5,14 +5,23 @@ const utils = require('./utils/utils');
 const adapter = new FileSync('db.json');
 const db = low(adapter);
 
+const defaultDb = {
+  stores: [],
+};
+
+const getStores = () => {
+  const stores = db.defaults(defaultDb).get('stores').value();
+  return stores;
+};
+
 const store = {
   get(req, res) {
-    const stores = db.get('stores').value();
+    const stores = getStores();
     res.send(stores);
   },
 
   post(req, res) {
-    const stores = db.get('stores').value();
+    const stores = getStores();
     const id = utils.getId(stores);
 
     const store = {
