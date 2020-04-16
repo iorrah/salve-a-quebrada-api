@@ -19,16 +19,7 @@ const store = {
   post(req, res) {
     const stores = getStores();
     const id = utils.getNewStoreId(stores);
-
-    const store = {
-      address: req.body.address,
-      donation: req.body.donation,
-      id: id,
-      image: req.body.image,
-      name: req.body.name,
-      status: 0,
-    };
-
+    const store = utils.buildStore(req.body, id);
     db.get('stores').push(store).write();
     res.send(store);
     res.end(store);
