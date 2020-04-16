@@ -8,7 +8,7 @@ module.exports = {
     return 0;
   },
 
-  getId(stores) {
+  getNewStoreId(stores) {
     return this.getLatestId(stores) + 1;
   }
 };

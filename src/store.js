@@ -22,7 +22,7 @@ const store = {
 
   post(req, res) {
     const stores = getStores();
-    const id = utils.getId(stores);
+    const id = utils.getNewStoreId(stores);
 
     const store = {
       address: req.body.address,
