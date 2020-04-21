@@ -11,7 +11,8 @@ const store = require('./store');
 const app = express();
 
 // shared values
-const API_STORE = '/v1/stores';
+// const API_STORE = '/v1/stores';
+const API_STORE = '/';
 
 // adding Helmet to enhance your API's security
 app.use(helmet());
