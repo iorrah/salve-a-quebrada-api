@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.js",
-    "nodeshift": "nodeshift"
+    "nodeshift": "nodeshift",
+    "heroku": "heroku"
+  },
+  "engines": {
+    "node": "^10.16.3"
   },
   "keywords": [],
   "author": "",
