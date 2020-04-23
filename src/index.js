@@ -30,6 +30,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // defining an endpoint to return all stores
 app.get(API_STORE, store.get);
 
+// defining an endpoint to return new stores
+app.get(`${API_STORE}/new`, store.getNew);
+
 // defining an endpoint to add a new store
 app.post(API_STORE, store.post);
 

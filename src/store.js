@@ -20,9 +20,19 @@ const getValidStores = () => {
   return stores;
 };
 
+const getInvalidStores = () => {
+  const stores = getStoresReference().filter({ status: 0 }).value();
+  return stores;
+};
+
 const store = {
   get(req, res) {
     const stores = getValidStores();
+    res.send(stores);
+  },
+
+  getNew(req, res) {
+    const stores = getInvalidStores();
     res.send(stores);
   },
 
