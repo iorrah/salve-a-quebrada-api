@@ -6,7 +6,8 @@ module.exports = {
   getLatestId(stores) {
     if (stores && stores.length) {
       const { length } = stores;
-      return length;
+      const latestStore = stores[length - 1];
+      return latestStore.id;
     }
 
     return 0;
