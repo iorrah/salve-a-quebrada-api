@@ -6,7 +6,7 @@
       "image": "https://s3-media3.fl.yelpcdn.com/bphoto/laoukL6s3GQfVrldozVsjw/o.jpg",
       "name": "GUAJA Café-Coworking",
       "status": 1,
-      "donation": "guaja.cc"
+      "donation": "http://guaja.cc"
     },
     {
       "address": "Rua Augusta, 1474 São Paulo - SP 01304-001",
@@ -22,7 +22,7 @@
       "image": "https://s3-media1.fl.yelpcdn.com/bphoto/2K1FO7YKWQl92mV7XdTiBg/o.jpg",
       "name": "À Mineira",
       "status": 1,
-      "donation": "grupoamineira.com.br"
+      "donation": "http://grupoamineira.com.br"
     },
     {
       "address": "Av. Octávio Mangabeira, 5095 Salvador - BA 41750-240",
@@ -30,7 +30,7 @@
       "image": "https://s3-media1.fl.yelpcdn.com/bphoto/s_14Nk5hy4c0ZcJN_wISbw/o.jpg",
       "name": "Boi Preto Prime",
       "status": 1,
-      "donation": "boipretogrill.com.br/pt"
+      "donation": "http://boipretogrill.com.br/pt"
     },
     {
       "address": "Rua Augusta,379 Consolação São Paulo - SP 01305-000",
@@ -46,7 +46,7 @@
       "image": "https://s3-media2.fl.yelpcdn.com/bphoto/lAtCDow1i4E1ignCW0plEg/o.jpg",
       "name": "Varadero Bar e Restô",
       "status": 1,
-      "donation": "varaderobar.com.br"
+      "donation": "http://varaderobar.com.br"
     },
     {
       "address": "Rua Girassol, 825 São Paulo - SP 05433-001",
@@ -54,7 +54,7 @@
       "image": "https://s3-media2.fl.yelpcdn.com/bphoto/kzgPgh_bXgcWvejBCiNWDA/o.jpg",
       "name": "De Bruer 101 Cervejas Brasileiras",
       "status": 1,
-      "donation": "debruer.com.br"
+      "donation": "http://debruer.com.br"
     },
     {
       "address": "R. Dr. Virgilio de Carvalho Pinto, 57 Pinheiros São Paulo - SP 05415-030",
@@ -70,7 +70,7 @@
       "image": "https://s3-media3.fl.yelpcdn.com/bphoto/sZA-kTvuEeFhmsFS4cffwQ/o.jpg",
       "name": "Tadashii",
       "status": 1,
-      "donation": "tadashii.com.br"
+      "donation": "http://tadashii.com.br"
     },
     {
       "address": "Alameda Campinas, 1160 São Paulo - SP 01404-001",
@@ -86,7 +86,7 @@
       "image": "https://s3-media1.fl.yelpcdn.com/bphoto/ZqMEcIIdWJPBZujIe6C_4w/o.jpg",
       "name": "Tanuki",
       "status": 1,
-      "donation": "tanukisushi.com.br"
+      "donation": "http://tanukisushi.com.br"
     },
     {
       "address": "Bc Ponta Negra 1986 Manaus - AM 69033-012",
