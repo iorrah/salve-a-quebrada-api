@@ -22,7 +22,7 @@
     "helmet": "^3.22.0",
     "http-errors": "^1.7.3",
     "lowdb": "^1.0.0",
-    "morgan": "^1.10.0",
+    "morgan": "^1.11.0",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
