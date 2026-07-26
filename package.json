@@ -26,6 +26,6 @@
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
-    "nodeshift": "^6.0.2"
+    "nodeshift": "^14.0.0"
   }
 }
