@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^5.2.1",
     "helmet": "^3.22.0",
     "http-errors": "^1.7.3",
     "lowdb": "^1.0.0",
@@ -26,6 +26,6 @@
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
-    "nodeshift": "^6.0.2"
+    "nodeshift": "^14.0.0"
   }
 }
